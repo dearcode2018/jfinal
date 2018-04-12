@@ -1,0 +1,62 @@
+【项目信息】
+项目名称 : jfinal
+中文名称 : JFinal
+项目版本 : version 1.0
+
+主要技术 : 
+
+项目描述 : 
+jfinal是基于java的web+orm开发框架，
+
+项目备注 : 
+
+【项目规划】
+
+1) 使用jetty-server 插件调试
+Run Configurations... / Debug Configurations...
+
+1: Main
+    project(required) ---> your_project_name
+    Main class(required) ---> com.jfinal.core.JFinal
+
+2: Argument
+    Program arguments(optional) ---> WebRoot 80 / 5
+    VM arguments(optional) ---> -XX:PermSize=64M -XX:MaxPermSize=256M
+
+
+
+
+2)
+
+3)
+
+4)
+
+5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>jfinal-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+	<artifactId>jfinal-orm</artifactId>
+	<packaging>jar</packaging>
+	<name>jfinal-orm</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<jfinal.version>0.0.1</jfinal.version>
+		
+		<!-- jdbc -->
+		<jdbc.mysql.version>5.1.34</jdbc.mysql.version>
+		<jdbc.oracle.version>10.2.0.4.0</jdbc.oracle.version>
+		<jdbc.sqlserver.version>4.0</jdbc.sqlserver.version>
+		<db2.version>0.0.1</db2.version>
+		<postgresql.version>0.0.1</postgresql.version>
+		<mangodb.version>0.0.1</mangodb.version>
+		<sybase.version>0.0.1</sybase.version>
+		<druid.version>1.0.14</druid.version>				
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>jfinal</artifactId>
+			<version>${jfinal.version}</version>
+		</dependency>
+	
+		<!-- jdbc -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${jdbc.mysql.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>${jdbc.oracle.version}</version>
+		</dependency>	
+	
+		<!-- dbcp -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>${druid.version}</version>
+		</dependency>		
+	</dependencies>
+
+</project>
